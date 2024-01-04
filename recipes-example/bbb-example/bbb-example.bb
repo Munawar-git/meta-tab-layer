@@ -9,6 +9,7 @@ SRC_URI:append = " file://0001-Changed-the-goodbye-message.patch"
 
 S = "${WORKDIR}/git"
 
+inherit task-info
 
 do_configure() {
     echo "#define WELCOME y" > bbb-example.h
