@@ -1,3 +1,6 @@
+# In your Linux terminal, execute the command to encrypt the password:  
+# printf "%q" $(openssl passwd YOURPASSWORD) where you replace **YOURPASSWORD** with your desired 
+# password. 
 LICENSE = "CLOSED"
 inherit useradd
 
